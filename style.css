@@ -1,0 +1,75 @@
+body{
+			margin: 0;
+			padding: 0;
+			overflow-x: hidden;
+		}
+		.para{
+			height: 500px;
+			width:100%;
+			font-size: 15px;
+			padding: 30px;
+			margin-top: 10px;
+			position: relative;
+			background-image: url(horizontal_road.jpg);
+			/* top: 0; */
+			margin-top: 0;
+		}
+/*		.inside{
+			position: absolute;
+			height: 200px;
+			width: 200px;
+			border-radius: 50%;
+			background-color: #000;
+		}*/
+		img.car{
+			position: absolute;
+			height: 350px;
+			width: 400px;
+			background-color: transparent;
+			left:0;
+			bottom: 110px;
+		}
+		button.start-btn,button.stop-btn{
+			padding: 5px;
+			margin: auto;
+			margin-left: auto;
+			text-align: center;
+			background: #407AFF;
+			color: #fff;
+			font-size: 18px;
+			position: absolute;
+			z-index: 3;
+			border: 1px solid #fff;
+			transition: all .4s;
+		}
+		button.start-btn img{
+			width: 50px;
+			width: 50px;
+			text-align: center;
+		}
+		button.stop-btn{
+			padding: 5px;
+			left: 230px;
+			background: #407AFF;
+			color: #fff;
+			font-size: 18px;
+			position: absolute;
+			z-index: 3;
+			border: 1px solid #fff;
+			transition: all .4s;
+		}
+
+		button.stop-btn img{
+			width: 50px;
+			width: 50px;
+			text-align: center;
+		}
+		button.start-btn:hover,button.stop-btn:hover{
+			background: #fff;
+			color: #000;;
+			border: 1px solid #407AFF;
+			cursor: pointer;
+		}
+		button:focus {
+		    outline:0;
+		}

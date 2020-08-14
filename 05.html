@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jQuery Tutorials</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="3.5.1jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="responsive.css">
+<!-- jQuery part -->
+	<script>
+
+	// ---------hide event --------------
+	$(document).ready(function(){
+		$("#start-animation").click(function(){
+		    $("img.car").animate({
+		    	left:'1000px',
+		    }, 5000)
+		})
+
+		$("#stop-animation").click(function(){
+			$("img.car").stop()
+		})
+
+	
+	});
+   // ---------hide event --------------
+
+	</script>
+<!-- jQuery part -->
+
+
+</head>
+<body>
+
+
+
+<button class="start-btn" id="start-animation"><img src="steering.png"> <br>Drive The Car !! </button>
+<button class="stop-btn" id="stop-animation"><img src="car_break.png"><br>Stop Driving !!</button>
+	
+<div class="para">
+	<div class="inside">
+		<img class="car" src="car.gif">
+	</div>
+</div>
+
+
+
+</body>
+</html>

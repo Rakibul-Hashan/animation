@@ -1,0 +1,17 @@
+@media (max-width: 575px){
+		img.car {
+	    position: absolute;
+	    height: 100px;
+	    width: 100px;
+	    background-color: transparent;
+	    left: 0;
+	    bottom: 140px;
+	}
+	body{
+		background-color: red; 
+	}
+}
+
+@media (max-width: 320px){
+	
+}
